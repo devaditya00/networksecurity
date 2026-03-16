@@ -21,3 +21,4 @@ if __name__ == '__main__':
         print("this will not be printed", a)
     except Exception as e:
         raise NetworkSecurityException(e, sys)
+
